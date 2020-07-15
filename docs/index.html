@@ -1,0 +1,392 @@
+<html>
+   <head>
+      <style>
+	  
+body{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+         #mycanvasXX{
+		 border:1px solid red;
+		 position: absolute;
+		  left: 132;
+		  top: 53;
+		 }
+		 
+
+
+div.back {
+  width: 1280px;
+  height: 660px;
+  margin: none;
+  border: none;
+   background-image: url('main2-1280.png');
+}
+
+		#skullDetails{
+		 border:1px solid green;
+		 position: absolute;
+		  left: 132;
+		  top: 353;
+		 }
+		 
+		 
+.button2{
+  border: none;
+  background-color: red;
+  color: black;
+  padding: 15px 32px;
+  text-color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.cont{
+    background:green;
+    width:60;
+    height:40px;
+    line-height:40px;
+    display: table;
+	margin-bottom: 8px;
+}
+.buttonRow{
+    background:#F00;
+    display: table-row;
+	margin-bottom: 8px;
+}
+
+
+
+div {
+  border: none;
+  margin: 0px;
+  padding: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 1280;
+  height: 660;
+  margin: 0px;
+  padding: none;
+  background-image: url('tableTop_1280.png');
+}
+
+.containerRef {
+  width: 1280;
+  height: 660;
+  margin: 0px;
+  padding: none;
+  background-image: url('main2-1280.png');
+ 
+}
+
+.left {
+	float: left;
+	width: 696;
+	height: 660;
+	
+}
+
+.right {
+	float: left;
+	width: 584;
+	background-image: url('img/default/noteBook.png');
+
+  background-size: 565px 643px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.topLeft { 
+	float: left;
+	width: 696;
+	height: 52;
+	align: right;
+}
+
+.rightContainer { 
+	float: right;
+	width: 584;
+	height: 660;
+ }
+
+.leftTools { 
+	float: left;
+	width: 132;
+	height: 518;
+	
+ }
+
+.bottomLeftBar { 
+	float: left;
+	width: 650;
+	height: 80;
+ }
+
+.canvasContainer { 
+	float: right;
+	width: 563;
+	height: 518;
+	z-index: -5;
+ }
+
+.mycanvas {
+	z-index: -1;
+}
+
+.alignTop {
+  vertical-align: top;
+}
+.alignBottom {
+  vertical-align: bottom;
+}
+
+
+.topButtonTray {
+	position: absolute;
+	left: 140px;
+	top: 6px;
+	background-image: url('img/default/buttonReferences_Panel.png');
+	width: 560;
+	height: 45;
+  background-size: 560px 45px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  border: 0px solid green;
+  padding-top: 10px;
+  z-index: 10;
+}
+
+.btnTop {
+	border-radius: 10px;
+	width: 178px;
+	height: 35px;
+	border: 4px solid transparent;
+	border-image-source: url(img/default/buttonReferences_NormalCropped.png);
+	border-image-slice: 20%;
+	padding: 1px;
+	text-color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	 background: #EDEDAD;
+
+}
+
+.leftButtonTray1 {
+	position: absolute;
+	left: 0px;
+	top: 45px;
+	background-image: url('img/default/toolBarTrimmed.png');
+	width: 125;
+	height: 314;
+	background-size: 125px 314px;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left: 14px;
+	padding-top: 14px;
+	border: 0px solid green;
+}
+.leftButtonTray2 {
+	position: absolute;
+	left: 0px;
+	top: 429px;
+	background-image: url('img/default/altToolBar.png');
+	width: 125;
+	height: 138;
+	background-size: 125px 138px;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0px solid green;
+	padding-top: 2px;
+	padding-left: 16px;
+}
+.viewLabel {
+	width: 105;
+	text-color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	text-aling:center;
+	font-family: font-family: Arial, Helvetica, sans-serif;
+	margin-top: 14px;
+	margin-bottom: 10px;
+}
+.btnViews {
+	border-radius: 4px;
+	width: 105;
+	height: 58px;
+	border: none;
+	padding: 0px;
+	text-color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	background-image: url('img/button_sideTan.png');
+	background-size: 105px 58px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 6px;
+}
+.btnViewsRed {
+	background-image: url('img/button_sideRed.png');
+}
+.btnViewsGreen {
+	background-image: url('img/button_sideGreen.png');
+}
+
+.btnViewsBlue {
+	background-image: url('img/button_sideBlue.png');
+}
+
+.btnViewsTan {
+	background-image: url('img/button_sideTan.png');
+}
+
+
+
+
+.skullButtonTray {
+	position: absolute;
+	left: 6px;
+	top: 571px;
+	background-image: url('img/default/skullBar.png');
+	width: 697;
+	height: 84;
+	background-size: 697px 84px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 0px solid green;
+}
+
+.skullInfoTray {
+	position: absolute;
+	left: 129px;
+	top: 464px;
+	background-image: url('img/default/skullInfoBar.png');
+	width: 571;
+	height: 105;
+	background-size: 571px 105px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	border: 0px solid green;
+	z-index: 10;
+}
+
+      </style>
+   </head>
+   
+   <body>
+   <!--
+   <div class="back">
+   
+   
+      <canvas id = "mycanvas" width = "563" height = "518"></canvas>
+	  
+	  <div width=50 height=300>
+	  <button type="button" class="button" >Side</button><BR>
+	  <button type="button" class="button" >Front</button>
+	  <button type="button" class="button" >Top</button>
+	  <button type="button" class="button" >Zoom In</button>
+	 </div>
+	 
+	 <div class="cont">
+    <div class="buttonRow">Button 1</div>
+    <div class="buttonRow">Button 2</div>
+    <div class="buttonRow">Button 3</div>
+    <div class="buttonRow">Button 4</div>
+</div>​
+
+
+
+
+
+	  <div id="skullDetails">
+	  some text here
+	  </div>
+	  
+	  <hr>
+-->	  
+	  
+<div class="container">
+	<div class="left"> 
+		<div class="topLeft">
+			<div class="topButtonTray">
+			<button type="button" class="btnTop" >Teeth</button>
+			<button type="button" class="btnTop" >Skull Diagram</button>
+			<button type="button" class="btnTop" >Reference Chart</button>
+			
+			</div>
+		
+		</div>
+		<div class="middleLeft">
+			<div class="leftTools">
+				<div class="leftButtonTray1">
+					<div class="viewLabel">Views:</div>
+					<button type="button" class="btnViews btnViewsRed" >Side</button><BR>
+					<button type="button" class="btnViews btnViewsGreen" >Front</button><BR>
+					<button type="button" class="btnViews btnViewsBlue" >Top</button><BR>
+					<button type="button" class="btnViews btnViewsTan" >Zoom In</button>
+				</div>
+				<div  class="leftButtonTray2">
+					<button type="button" class="btnViews" >Open Jaw</button><BR>
+					<button type="button" class="btnViews" >Ruler</button>
+				</div>
+			</div>
+			<div class="canvasContainer">
+				<canvas id = "mycanvas" width = "563" height = "518"></canvas>
+				
+				<div class="skullInfoTray"></div>
+			</div>
+		</div>
+		<div class="bottomLeftBar">
+		<div class=skullButtonTray>
+			<button type="button" class="button" >1</button>
+			<button type="button" class="button" >2</button>
+			<button type="button" class="button" >3</button>
+			<button type="button" class="button" >4</button>
+			<button type="button" class="button" >All</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="right"> 
+		<div class="rightContainer">right</div>
+	</div>
+	
+	
+	
+  
+  
+  
+ 
+</div>
+
+
+   </body>
+   
+   
+   <script>
+      var canvas = document.getElementById('mycanvas');
+      var gl = canvas.getContext('experimental-webgl');
+      gl.clearColor(0.9,0.9,0.8,1);
+      gl.clear(gl.COLOR_BUFFER_BIT);
+   </script>
+   
+</html>
+
